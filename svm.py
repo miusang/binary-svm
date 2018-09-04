@@ -21,7 +21,7 @@ class SVM(object):
                select the kernel function to be used in the binnary SVM model.
 
         sigma : float, the standard deviation of Gauss kernel function.
-                sigma越大,升维越高
+                sigma越小,升维越高
         '''
         self.max_iter = max_iter
         self.C = C
